@@ -73,6 +73,4 @@ describe(PhotoFrameComponent.name, () => {
       expect(img.getAttribute('alt')).toBe(description);
     });
 
-
-
 });

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 99.0.4844.74 (Windows 10)" package="" timestamp="2022-03-21T16:28:09" id="0" hostname="AIO-TI-01" tests="15" errors="0" failures="0" time="0.081">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/99.0.4844.74 Safari/537.36"/>
+  </properties>
+  <testcase name="LikeWidgetComponent Should create component" time="0.036" classname="Chrome_Headless_99_0_4844_74_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should auto-generate ID during ngOnInit when (@Input id) is not assigned" time="0.009" classname="Chrome_Headless_99_0_4844_74_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like&#xA;    should trigger (@Output liked) when called" time="0.004" classname="Chrome_Headless_99_0_4844_74_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should NOT auto-generate ID during ngOnInit when (@Input id) is assigned" time="0.004" classname="Chrome_Headless_99_0_4844_74_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="UniqueIdService #getNumberOfGeneratedUniqueIds&#xA;    should return the number of generatedIds when called" time="0" classname="Chrome_Headless_99_0_4844_74_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;    should not generate duplicate IDs when called multiple times" time="0" classname="Chrome_Headless_99_0_4844_74_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;    should generate id when called with prefix" time="0" classname="Chrome_Headless_99_0_4844_74_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix&#xA;    should throw when called with empty" time="0" classname="Chrome_Headless_99_0_4844_74_(Windows_10).UniqueIdService"/>
+  <testcase name="PhotoFrameComponent (D) Should display image with src and description when bound to properties" time="0.005" classname="Chrome_Headless_99_0_4844_74_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent (D) Should have aria-label with 0 (@Input likes) value" time="0.005" classname="Chrome_Headless_99_0_4844_74_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent #like should trigger (@Output liked) two times when callend outside debounce time" time="0.005" classname="Chrome_Headless_99_0_4844_74_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent (D) Should display number of likes when (@Input likes) is incremented" time="0.003" classname="Chrome_Headless_99_0_4844_74_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent Should create component" time="0.003" classname="Chrome_Headless_99_0_4844_74_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent #like should trigger (@Output liked) once when called multiple times within debounce time" time="0.003" classname="Chrome_Headless_99_0_4844_74_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent (D) Should update aria-label when (@Input likes) is incremented" time="0.004" classname="Chrome_Headless_99_0_4844_74_(Windows_10).PhotoFrameComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
