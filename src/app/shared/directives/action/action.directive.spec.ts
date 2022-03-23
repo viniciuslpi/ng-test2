@@ -24,7 +24,15 @@ describe(ActionDirective.name, () => {
     const event = new KeyboardEvent('keyup', {key: 'Enter'});
     divEl.dispatchEvent(event);
     expect(component.hasEvent()).toBe(true);
+  });
+
+  it(`(D) (@Output appAction) should emit event with payload when clicked`, () => {
+    const divEl: HTMLElement = fixture.nativeElement.querySelector('.dummy-component');
+    const event = new Event('click');
+    divEl.dispatchEvent(event);
+    expect(component.hasEvent()).toBe(true);
   })
+
 
 });
 
