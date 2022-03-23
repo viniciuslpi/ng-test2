@@ -13,10 +13,11 @@ describe(ActionDirective.name, () => {
       declarations: [ActionDirectiveTestComponent],
       imports: [ActionDirectiveModule]
     }).compileComponents();
-  });
 
-  fixture = TestBed.createComponent(ActionDirectiveTestComponent);
-  component = fixture.componentInstance;
+    fixture = TestBed.createComponent(ActionDirectiveTestComponent);
+    component = fixture.componentInstance;
+
+  });
 
   it(`(D) (@Output appAction) should emit event with payload when ENTER key is pressed`, () => {
     const divEl: HTMLElement = fixture.nativeElement.querySelector('.dummy-component');
