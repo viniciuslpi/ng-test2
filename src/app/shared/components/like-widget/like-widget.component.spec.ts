@@ -57,7 +57,7 @@ describe(LikeWidgetComponent.name, () => {
     component.liked.subscribe(() => {
       component.likes++;
       fixture.detectChanges();
-      const countEl: HTMLElement = fixture.nativeElement.querySelector('.like-counter');
+      const countEl:    HTMLElement = fixture.nativeElement.querySelector('.like-counter');
       expect(countEl.textContent.trim()).toBe('1');
       done();
     });
