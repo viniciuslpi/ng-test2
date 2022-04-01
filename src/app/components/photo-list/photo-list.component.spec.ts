@@ -41,7 +41,6 @@ describe(PhotoListComponent.name, () => {
     });
 
     it(`(D) Should display loader while waiting for data`, () => {
-        const photos = buildPhotoList();
         spyOn(service, 'getPhotos')
             .and.returnValue(null)
         fixture.detectChanges();
@@ -51,10 +50,6 @@ describe(PhotoListComponent.name, () => {
             .withContext('Should not display loader')
             .toBeNull();
         expect(loader).withContext('Should  display loader').not.toBeNull();
-    })
-
-    it(``, () => { 
-        
     })
 
 });
